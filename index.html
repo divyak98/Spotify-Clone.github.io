@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Spotify - Your favourite Music here</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList"></div>
+        <h1 >Best of 2022</h1>
+        <div class="songItemContainer">
+            <div class="songItems">
+                <img src="1.jpg" alt="1">
+                <span class="songName">Mera Safer</span>
+                <span class="songlistplay"><span class="timestamp">04:20 <i id="0"
+                            class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                    <img src="2.jpg" alt="1">
+                    <span class="songName">Kesariya</span>
+                    <span class="songlistplay"><span class="timestamp">02:53 <i id="1"
+                        class="far songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItems">
+                <img src="3.jpeg" alt="1">
+                <span class="songName"> Manike</span>
+                <span class="songlistplay"><span class="timestamp">03:59 <i id="2"
+                            class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img src="4.jpeg" alt="1">
+                <span class="songName">Nacho Nacho</span>
+                <span class="songlistplay"><span class="timestamp">04:23 <i id="3"
+                            class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+           
+            <div class="songItems">
+                <img src="5.jpg" alt="1">
+                <span class="songName">Pasoori</span>
+                <span class="songlistplay"><span class="timestamp">04:37 <i id="4"
+                            class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img src="6.webp" alt="1">
+                <span class="songName">Apna Bana Le</span>
+                <span class="songlistplay"><span class="timestamp">04:33 <i id="5"
+                            class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img src="7.jpg" alt="1">
+                <span class="songName">Mehmaan (Mismatched) </span>
+                <span class="songlistplay"><span class="timestamp">02:51 <i id="6"
+                            class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItems">
+                <img src="8.jpeg" alt="1">
+                <span class="songName" >Kahani </span>
+                <span class="songlistplay"><span class="timestamp">03:28<i id="7"
+                            class="far songItemPlay fa-circle-play"></i></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="110">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward" id
+            ="previous"></i>
+            <i class="fa-solid  fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class=" fa-solid  fa-3x fa-forward" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="audio.gif" width="42px" alt="" id="gif"><span id="masterSongName">Mera Safer</span>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/1dcbb38105.js" crossorigin="anonymous"></script>
+   
+</body>
+
+</html>
